@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/dracula.css">
+    <link rel="stylesheet" href="css/formulario.css">
+    <link rel="stylesheet" href="css/menuLateral.css">
+    <link rel="stylesheet" href="css/editor.css">
+    <link rel="stylesheet" href="css/cabeçalho.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura DEV</title>
+</head>
+<body>
+    <div class="baseDoConteudo">
+        <header class="cabeçalho">
+            <h1><img src="img/Logo.png" alt="Logo Alura DEV"></h1>
+            <input type="search" name="" id="barraDeBusca" placeholder="Busque por algo">
+            <div class="author">
+                <a href=""><img src="img/author.png" alt="Imagem do autor"></a>
+                <h2 class="nomeAuthor">Harry</h2>
+            </div>
+        </header>
+
+        <main>            
+            <div class="color_code_editor" data-moldura>                
+                <div class="code_editor" data-code-box>
+                    <input type="radio" name="" id="macBtn-R">
+                    <input type="radio" name="" id="macBtn-Y">
+                    <input type="radio" name="" id="macBtn-G">
+                    <code  contenteditable="true" class="code hljs" aria-label="editor">
+const pluckDeep = key => obj => key.split('.').reduce((accum, key) => 
+accum[key], obj)
+const compose = (...fns) => res => fns.reduce((accum, next) => next(accum),
+ res)
+                                
+const unfold = (f, seed) => {
+const go = (f, seed, acc) => {
+const res = f(seed)
+return res ? go(f, res[1], acc.concat([res[0]])) : acc
+}
+return go(f, seed, [])
+}</code>
+                   
+                </div>
+            </div>
+
+            <input class="highlight" data-highlight type="button" value="Visualizar com o highlight">
+        </main>
+
+        <nav class="menuLateral">
+            <ul>
+                <h2 class="menuName">menu</h2>
+                <li class="editor"><a href="index.html">
+                    <div class="img_code">
+                        <img src="img/icon_code.svg" alt="Ícone do Código">
+                    </div>
+                    <h3>Editor de Código</h3>
+                </a></li>
+    
+                <li class="caixaComunidade"><a href="./comunidade.html">
+                    <div class="caixaImgComunidade">
+                        <img src="img/comunidade.svg" alt="Ícone da comunidade">
+                    </div>
+                    <h3>Comunidade</h3>
+    
+                </a></li>
+            </ul>
+        </nav>
+
+        <form class="formDir">
+            <h2 class="tituloProjeto">seu projeto</h2>
+
+            <input type="text" name="" id="nomeDoProjeto" placeholder="Nome do seu projeto">
+
+            <textarea id="descriçaoDoProjeto" placeholder="Descrição do seu projeto"></textarea>
+
+            <h2 class="tituloPersonalizaçao">Personalização</h2>
+
+            <select name="" id="linguagem" data-lang>
+                <option class="languageOptions" value="html">HTML</option>
+                <option class="languageOptions" value="css">CSS</option>
+                <option class="languageOptions" value="Javascript">JavaScript</option>
+            </select>
+
+            <input type="color" class="seletorDeCores" value="#6BD1FF" data-moldura-cor></div>
+            
+            <input class="btnSalvarProjeto" type="submit" value="Salvar projeto">
+
+
+        </form>
+    </div>
+
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.0.1/build/highlight.min.js"></script>
+    <script>hljs.highlightAll()</script>
+    <script src="js/testehighlight.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

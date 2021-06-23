@@ -1,0 +1,73 @@
+.cabeçalho{
+    position:absolute;
+    top: 32px;
+    left:32px;
+    width: 1376px;
+    height: 56px;
+    position:sticky;
+    
+}
+
+.cabeçalho img{
+    position:absolute;
+    top:12px;
+    height: 34.05px;
+}
+
+#barraDeBusca{
+    color:#9daac5;
+    font-size:16px;
+    position: absolute;
+    right: 312px;
+    width: 752px;
+    height: 56px;
+    border:none;
+    border-radius:8px;
+    background-color:rgba(255, 255, 255, 0.16);
+    padding:0 14px;
+    outline:none;
+    cursor:pointer;
+    transition:0.3s;
+}
+#barraDeBusca::placeholder{     
+    color: #9daac5;
+    font-size:16px;
+    line-height:24px;    
+}
+
+#barraDeBusca:hover{
+    background: #FFFFFF3D;    
+}
+
+.author{
+    position: absolute;   
+    top: 0;    
+    left: 1270px;
+    right:32px;
+    width:106px;
+    height:56px;
+    border-radius: 8px; 
+    transition:0.3s;
+}
+
+.author:hover{
+    background: #FFFFFF14;
+}
+
+.nomeAuthor{
+    display: inline;
+    color:white;
+    position:absolute;
+    top: 20px;
+    bottom:16px;
+    right:12px;
+    left:52px;
+}
+
+.author img{
+    position:relative;
+    top: 12px;
+    left: 12px;
+    bottom:12px;
+    right:62px;
+}

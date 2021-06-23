@@ -1,0 +1,121 @@
+
+.tituloProjeto,.tituloPersonalizaçao{
+    text-transform:uppercase;
+    font-size:12px;
+    line-height:18px;
+    color:white;
+    letter-spacing:0.4em;
+    position:absolute;
+    left:1136px;    
+}
+
+.tituloProjeto{
+    top: 128px;
+}
+
+#nomeDoProjeto, #descriçaoDoProjeto, #linguagem{
+    position:absolute;    
+    left:1136px;
+    width:272px;
+    border-radius:8px;
+    background:rgba(255, 255, 255, 0.16);
+    border:none;
+    outline:none;
+    color:white;   
+    font-size:16px;
+    cursor:pointer;
+}
+
+#nomeDoProjeto:hover, #descriçaoDoProjeto:hover, #linguagem:hover{
+    background:rgba(255, 255, 255, 0.24)
+}
+
+#nomeDoProjeto::placeholder, #descriçaoDoProjeto::placeholder, #linguagem{
+    color:rgba(255,255,255,0.64);
+    font-family:Inter;
+    font-size:16px;
+    line-height:24px;
+    /*position:relative;
+    left:14px;*/
+}
+
+#descriçaoDoProjeto::placeholder{
+    height:48px;
+   /* position:relative;
+    top:16px;
+    left:0*/
+}
+
+#nomeDoProjeto{    
+    top:164px;    
+    width:244px;   
+    height:56px;   
+    padding:0 14px; 
+    transition:0.3s;  
+}
+
+#descriçaoDoProjeto{   
+    height:64px;
+    width:244px;
+    top:238px;
+    resize:none;
+    overflow:hidden;
+    padding: 16px 14px 0px;    
+    transition:0.3s;
+}
+
+.tituloPersonalizaçao{
+    top:354px;  
+}
+
+#linguagem{
+    height:56px;
+    top:388px;
+    padding:0 14px;
+    transition:0.3s;
+}
+
+.seletorDeCores{    
+    position: absolute;
+    width: 272px;
+    height: 40px;
+    left: 1136px;
+    top: 468px;    
+    border-radius: 4px;    
+    background: none;
+    border: 1px solid white;
+}
+
+.btnSalvarProjeto{
+    background: #5081FB;
+    position: absolute;
+    color:#051D3B;
+    width: 272px;
+    height: 56px;
+    left: 1136px;
+    top: 548px;
+    border:none;
+    border-radius:8px;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    cursor:pointer;
+    outline: none;
+    transition:0.3s;
+}
+
+.btnSalvarProjeto:hover{
+    background: #7BA4FC;
+}
+
+.btnSalvarProjeto:active{
+    box-shadow: 0 0 0 4px  rgba(80, 129, 251, 0.72);       
+}
+
+.btnSalvarProjeto:focus{
+    background: #96B9FD;
+}

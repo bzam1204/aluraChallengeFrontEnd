@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+    font-family:Inter;    
+}
+
+.baseDoConteudo{
+    position:relative;
+    width:1440px;
+    height:1112px;
+    background:#051D3B;
+    border-radius: 40px;
+}

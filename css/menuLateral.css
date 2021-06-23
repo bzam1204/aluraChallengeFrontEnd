@@ -1,0 +1,95 @@
+
+
+.menuLateral{
+    width:189px;
+    height:146px;
+    background: #051D3B;
+    position:absolute;
+    top:128px;
+    left:32px;
+    color:white;    
+}
+
+.menuLateral a{
+    text-decoration:none;
+    color:white;    
+}
+
+.menuName{
+    text-transform:uppercase;
+    line-height:18px;
+    font-size:12px;
+    letter-spacing:0.4em;
+}
+
+.editor{
+    width:189px;
+    height:48px;
+    position:relative;
+    top:16px;
+}
+
+.img_code{
+    width:48px;
+    height:48px;
+    background:#5081FB;
+    border-radius:16px;
+    display:inline-block;
+
+}
+
+.img_code img{
+    margin:12px;
+}
+
+.editor h3{
+    line-height:24px;
+    display:inline;
+    vertical-align:top;
+    position:relative;
+    top:12px;
+    left:11.5px;
+}
+
+.caixaComunidade{    
+    width:160px;
+    height:48px;
+    position:relative;
+    top:32px;    
+}
+
+.caixaImgComunidade{
+    width:48px;
+    height:48px;
+    display:inline-block;
+    border-radius:16px;
+    background: #5081FB29;
+    transition: 300ms; 
+}
+
+.caixaImgComunidade:hover{
+    background: #5081FBA3;
+}
+
+.caixaImgComunidade img{
+    margin: 17px 14px;
+    opacity:0.56;    
+}
+
+.caixaImgComunidade img:hover{
+    opacity: 0.72;
+}
+
+.caixaComunidade h3{
+    display:inline;
+    position:absolute;
+    top:12px;
+    left:64px;
+    font-size:16px;
+    line-height:24px;
+    opacity: 0.56;    
+}
+
+.caixaComunidade h3:hover{
+    opacity:0.72;
+}
