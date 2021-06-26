@@ -1,11 +1,10 @@
 .cabeçalho{
+    margin:0 auto;
     position:absolute;
     top: 32px;
-    left:32px;
-    width: 1376px;
+    width: 95.55%;
     height: 56px;
-    position:sticky;
-    
+    position:sticky;    
 }
 
 .cabeçalho img{
